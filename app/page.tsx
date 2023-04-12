@@ -1,12 +1,19 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
+import SideBar from "./components/SideBar";
+import HomeSection from "./components/MainSection";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      hello world
+    <main className="flex flex-col lg:flex-row  md:flex-row w-full m-auto justify-around my-3 p-3">
+      <div className=" col-span-12  bg-black text-white  p-5  text-center  rounded-2xl ">
+        <SideBar />
+      </div>
+      <div className=" bg-black text-white rounded-2xl w-8/12 ">
+        <HomeSection />
+      </div>
     </main>
   );
 }
