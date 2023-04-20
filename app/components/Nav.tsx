@@ -4,20 +4,12 @@ import React, { FunctionComponent, useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-// const NavItem: FunctionComponent<{
-//   activeItem: string;
-//   setActiveItem: Function;
-//   route: string;
-//   name: string;
-// }> = ({ activeItem, setActiveItem, name, route }) => {
-//   return activeItem !== name ? (
-//     <Link href={route}>
-//       <span onClick={() => setActiveItem("about")}>{activeItem}</span>
-//     </Link>
-//   ) : null;
-// };
-const Nav = () => {
-  const [activeItem, setActiveItem] = useState("About");
+interface navProps {
+  data: string;
+  setActiveItem: Function;
+}
+const Nav = ({ data, setActiveItem }: navProps) => {
+  // const [activeItem, setActiveItem] = useState("About");
   // const { pathname } = useRouter();
 
   useEffect(() => {
@@ -28,7 +20,7 @@ const Nav = () => {
   return (
     <div className="flex justify-between items-center p-3 font-bold ">
       <span className="cursor-pointer text-xl border-b-4 border-blue-400 hover:text-blue-400">
-        {activeItem}
+        {data}
       </span>
       <div className="flex justify-evenly md:w-[30%] w-[50%]">
         <Link href="">
@@ -36,7 +28,7 @@ const Nav = () => {
             onClick={() => setActiveItem("About")}
             className="hover:text-blue-400"
           >
-            {activeItem === "About" ? "" : <span>About</span>}
+            {data === "About" ? "" : <span>About</span>}
           </span>
         </Link>
         <Link href="">
@@ -44,7 +36,7 @@ const Nav = () => {
             onClick={() => setActiveItem("Project")}
             className="hover:text-blue-400"
           >
-            {activeItem === "Project" ? "" : <span>Project</span>}
+            {data === "Project" ? "" : <span>Project</span>}
           </span>
         </Link>
         <Link href="">
@@ -52,7 +44,7 @@ const Nav = () => {
             onClick={() => setActiveItem("Resume")}
             className="hover:text-blue-400"
           >
-            {activeItem === "Resume" ? "" : <span>Resume</span>}
+            {data === "Resume" ? "" : <span>Resume</span>}
           </span>
         </Link>
         {/* <NavItem

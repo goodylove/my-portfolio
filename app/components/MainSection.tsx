@@ -1,15 +1,20 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Nav from "./Nav";
-// import Project from "./../project/page";
+import Project from "../components/Project";
+import Resume from "../components/Resume";
+import About from "./About";
 
 const HomeSection = () => {
+  const [activeItem, setActiveItem] = useState("About");
   return (
     <div>
-      <Nav />
+      <Nav data={activeItem} setActiveItem={setActiveItem} />
       <div>
-        <h1>main</h1>
+        {activeItem === "About" ? <About /> : ""}
+        {activeItem === "Resume" ? <Resume /> : ""}
+        {activeItem === "Project" ? <Project /> : ""}
       </div>
     </div>
   );
