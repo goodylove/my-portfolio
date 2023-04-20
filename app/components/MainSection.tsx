@@ -8,7 +8,9 @@ const HomeSection = () => {
   return (
     <div>
       <Nav />
-      {/* <Project /> */}
+      <div>
+        <h1>main</h1>
+      </div>
     </div>
   );
 };

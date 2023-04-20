@@ -27,20 +27,31 @@ const Nav = () => {
   }, []);
   return (
     <div className="flex justify-between items-center p-3 font-bold ">
-      <span className="cursor-pointer">{activeItem}</span>
-      <div className="flex justify-evenly">
+      <span className="cursor-pointer text-xl border-b-4 border-blue-400 hover:text-blue-400">
+        {activeItem}
+      </span>
+      <div className="flex justify-evenly md:w-[30%] w-[50%]">
         <Link href="">
-          <span onClick={() => setActiveItem("About")}>
+          <span
+            onClick={() => setActiveItem("About")}
+            className="hover:text-blue-400"
+          >
             {activeItem === "About" ? "" : <span>About</span>}
           </span>
         </Link>
         <Link href="">
-          <span onClick={() => setActiveItem("Project")}>
+          <span
+            onClick={() => setActiveItem("Project")}
+            className="hover:text-blue-400"
+          >
             {activeItem === "Project" ? "" : <span>Project</span>}
           </span>
         </Link>
         <Link href="">
-          <span onClick={() => setActiveItem("Resume")}>
+          <span
+            onClick={() => setActiveItem("Resume")}
+            className="hover:text-blue-400"
+          >
             {activeItem === "Resume" ? "" : <span>Resume</span>}
           </span>
         </Link>

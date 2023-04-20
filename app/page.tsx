@@ -11,7 +11,7 @@ export default function Home() {
       <div className=" col-span-12  bg-black text-white  p-5  text-center  rounded-2xl ">
         <SideBar />
       </div>
-      <div className=" bg-black text-white rounded-2xl w-8/12 ">
+      <div className=" bg-black text-white rounded-2xl md:w-8/12 w-full ">
         <HomeSection />
       </div>
     </main>
