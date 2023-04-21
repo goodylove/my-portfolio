@@ -7,7 +7,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ["Kaushan Script"],
+      sans: ["Poppins"],
     },
     extend: {
       backgroundImage: {

@@ -20,13 +20,13 @@ const SideBar = () => {
         <span className="px-2 font-sans">Nwachukwu</span>
         Goodness
       </h5>
-      <p className="bg-gray-200 rounded-full font-bold    px-6 py-1  my-3 text-black ">
+      <p className="bg-white rounded-full font-bold    px-6 py-1  my-3 text-blue-400 ">
         Software Developer
       </p>
       <p>
         <a
           href=""
-          className="bg-gray-200 rounded-full px-8 py-1  my-3 flex  font-bold  justify-center items-center text-sm text-black "
+          className="bg-white  rounded-full px-8 py-1  my-3 flex  font-bold  justify-center items-center text-sm text-blue-400 "
         >
           <AiOutlineCloudDownload />
           Download resume
@@ -58,18 +58,18 @@ const SideBar = () => {
           style={{ width: 40, height: 30 }}
         />
       </div>
-      <div className="bg-gray-200 w-full p-3 text-black font-bold">
+      {/* <div className="bg-gray-200 w-full p-3 text-black font-bold rounded-md">
         <p>goodyc474@gmail.com</p>
         <p>+2349068557284</p>
-      </div>
+      </div> */}
       <button
-        className="bg-gradient-to-r from-blue-200 to-blue-500 w-3/6  my-3 p-2  rounded-full"
+        className="bg-blue-400  w-3/6  my-3 p-2  rounded-full"
         onClick={() => window.open("mailto:goodyc474@gmail.com")}
       >
         Email me
       </button>
       <button
-        className="bg-gradient-to-r p-2 from-blue-200 to-blue-500 w-3/6 
+        className=" p-2 bg-blue-400  w-3/6 
       
       my-3 rounded-full"
       >
