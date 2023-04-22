@@ -1,12 +1,14 @@
 import { aboutMe } from "@/data/page-data";
+import Link from "next/link";
 import Image, { StaticImageData } from "next/image";
 
 interface aboutMeProps {
   data: {
     title: string[];
-    skills: {
-      name: string;
-      img: string;
+
+    experiences: {
+      role: string;
+      description: string;
     }[];
   };
 }
@@ -14,32 +16,34 @@ interface aboutMeProps {
 const About = ({ data }: aboutMeProps) => {
   return (
     <div className="">
-      <h4 className="pl-3 pr-3">
+      <h4 className="pl-3 pr-3 text-sm">
         {data.title.map((text, index) => {
           return <p key={index}>{text}</p>;
         })}
       </h4>
-      <div className="m-4">
-        <h2 className="text-xl p-3">My Skills</h2>
-        <ul className="grid md:grid-cols-3 gap-6 content-center pl-2 sm:grid-cols-2 grid-col-1 justify-center">
-          {data.skills.map((item, index) => {
+      <div className="pl-2 m-2">
+        <span className=" text-xl border-b-4 border-blue-400 ">
+          My Experinces
+        </span>
+      </div>
+      <div>
+        <ul>
+          {data.experiences.map((text, index) => {
             return (
-              <li key={index} className=" ">
-                <div className="w-[200px] h-[100px] border-[1px] rounded-md overflow-hidden bg-blue-400 ">
-                  <Image
-                    src={item.img}
-                    priority
-                    width={200}
-                    height={200}
-                    alt="image"
-                    className=""
-                  />
-                </div>
-                <p>{item.name}</p>
+              <li key={index} className="p-2 flex flex-col">
+                <span className="text-mdl text-blue-400">{text.role}</span>
+                <span className="text-sm">{text.description}</span>
               </li>
             );
           })}
         </ul>
+      </div>
+      <div className="pl-3  mb-2 mt-2">
+        <Link href="tel:+234-9068-557-284">
+          <button className="bg-blue-400 rounded-md text-white p-2 shadow-md">
+            Contact Me
+          </button>
+        </Link>
       </div>
     </div>
   );

@@ -9,20 +9,12 @@ interface navProps {
   setActiveItem: Function;
 }
 const Nav = ({ data, setActiveItem }: navProps) => {
-  // const [activeItem, setActiveItem] = useState("About");
-  // const { pathname } = useRouter();
-
-  useEffect(() => {
-    // if (pathname === "/") setActiveItem("about");
-    // if (pathname === "/#project") setActiveItem("project");
-    // if (pathname === "/#resume") setActiveItem("resume");
-  }, []);
   return (
-    <div className="flex justify-between items-center p-3 font-bold ">
-      <span className="cursor-pointer text-xl border-b-4 border-blue-400 hover:text-blue-400">
+    <div className="flex justify-between items-center p-3 font-bold">
+      <span className="cursor-pointer md:text-xl border-b-4 border-blue-400 hover:text-blue-400 ">
         {data}
       </span>
-      <div className="flex justify-evenly md:w-[30%] w-[50%]">
+      <div className="flex justify-evenly md:w-[30%] w-[50%] text-md">
         <Link href="">
           <span
             onClick={() => setActiveItem("About")}
@@ -47,24 +39,14 @@ const Nav = ({ data, setActiveItem }: navProps) => {
             {data === "Resume" ? "" : <span>Resume</span>}
           </span>
         </Link>
-        {/* <NavItem
-          activeItem={activeItem}
-          setActiveItem={setActiveItem}
-          name="about"
-          route="/"
-        />
-        <NavItem
-          activeItem={activeItem}
-          setActiveItem={setActiveItem}
-          name="project"
-          route="/#resume"
-        />
-        <NavItem
-          activeItem={activeItem}
-          setActiveItem={setActiveItem}
-          name="resume"
-          route="/#resume"
-        /> */}
+        <Link href="">
+          <span
+            onClick={() => setActiveItem("Skills")}
+            className="hover:text-blue-400"
+          >
+            {data === "Skills" ? "" : <span>Skills</span>}
+          </span>
+        </Link>
       </div>
     </div>
   );
