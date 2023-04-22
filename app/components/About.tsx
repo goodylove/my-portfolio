@@ -1,6 +1,8 @@
 import { aboutMe } from "@/data/page-data";
 import Link from "next/link";
 import Image, { StaticImageData } from "next/image";
+import { container, item } from "../components/Animation ";
+import { motion as m } from "framer-motion";
 
 interface aboutMeProps {
   data: {
@@ -15,7 +17,12 @@ interface aboutMeProps {
 
 const About = ({ data }: aboutMeProps) => {
   return (
-    <div className="">
+    <m.div
+      className=" pt-5"
+      variants={container}
+      initial="hidden"
+      animate="show"
+    >
       <h4 className="pl-3 pr-3 text-sm">
         {data.title.map((text, index) => {
           return <p key={index}>{text}</p>;
@@ -30,22 +37,31 @@ const About = ({ data }: aboutMeProps) => {
         <ul>
           {data.experiences.map((text, index) => {
             return (
-              <li key={index} className="p-2 flex flex-col">
+              <m.li
+                key={index}
+                className="p-2 flex flex-col"
+                variants={item}
+                initial="hidden"
+                animate="show"
+              >
                 <span className="text-mdl text-blue-400">{text.role}</span>
                 <span className="text-sm">{text.description}</span>
-              </li>
+              </m.li>
             );
           })}
         </ul>
       </div>
-      <div className="pl-3  mb-2 mt-2">
+      <div className="pl-3  mb-2 mt-2 w-full">
         <Link href="tel:+234-9068-557-284">
           <button className="bg-blue-400 rounded-md text-white p-2 shadow-md">
             Contact Me
           </button>
         </Link>
+        <button className="bg-blue-400 rounded-md text-white p-2 shadow-md m-2">
+          Download resume
+        </button>
       </div>
-    </div>
+    </m.div>
   );
 };
 

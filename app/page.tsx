@@ -13,7 +13,7 @@ export default function Home() {
       <div className=" col-span-12  bg-gray-900  text-white  p-5  text-center  rounded-2xl ">
         <SideBar />
       </div>
-      <div className=" bg-gray-900  text-white rounded-2xl md:w-8/12 w-full mt-5 ">
+      <div className=" bg-gray-900  text-white rounded-2xl md:w-8/12 w-full  ">
         <HomeSection />
       </div>
     </main>

@@ -14,7 +14,7 @@ const Nav = ({ data, setActiveItem }: navProps) => {
       <span className="cursor-pointer md:text-xl border-b-4 border-blue-400 hover:text-blue-400 ">
         {data}
       </span>
-      <div className="flex justify-evenly md:w-[30%] w-[50%] text-md">
+      <div className="flex justify-evenly md:w-[30%] w-[67%] text-md">
         <Link href="">
           <span
             onClick={() => setActiveItem("About")}
@@ -31,14 +31,14 @@ const Nav = ({ data, setActiveItem }: navProps) => {
             {data === "Project" ? "" : <span>Project</span>}
           </span>
         </Link>
-        <Link href="">
+        {/* <Link href="">
           <span
             onClick={() => setActiveItem("Resume")}
             className="hover:text-blue-400"
           >
             {data === "Resume" ? "" : <span>Resume</span>}
           </span>
-        </Link>
+        </Link> */}
         <Link href="">
           <span
             onClick={() => setActiveItem("Skills")}
