@@ -1,56 +1,37 @@
-import { skills } from "@/data/page-data";
-import Image, { StaticImageData } from "next/image";
-import { motion as m } from "framer-motion";
-import { container, item } from "../components/Animation ";
+import { language, tools } from "@/data/page-data";
+import { IconType } from "react-icons/lib";
+import Bar from "./Bar";
 
-interface skillsProps {
+export interface skillProps {
   data: {
-    // title: string[];
-    skills: {
-      name: string;
-      img: string;
-    }[];
+    name: string;
+    level: string;
+    Icon: IconType;
   };
 }
 
-const Skills = ({ data }: skillsProps) => {
+const Resume = () => {
   return (
-    <m.div className="" variants={container} initial="hidden" animate="show">
-      <div className="m-4">
-        {/* <h2 className="text-xl p-3">My Skills</h2> */}
-        <m.ul
-          className="grid md:grid-cols-3 gap-6 content-center pl-2 sm:grid-cols-2 grid-col-1 justify-center"
-          variants={item}
-          initial="hidden"
-          animate="show"
-        >
-          {data.skills.map((item, index) => {
-            return (
-              <li key={index} className=" ">
-                <div className="w-[200px] h-[100px] border-[1px] rounded-md overflow-hidden bg-blue-400 ">
-                  <Image
-                    src={item.img}
-                    priority
-                    width={200}
-                    height={200}
-                    alt="image"
-                    className=""
-                  />
-                </div>
-                <p>{item.name}</p>
-              </li>
-            );
-          })}
-        </m.ul>
-        <h2 className="pl-2">Other Skills</h2>
-        <ol type="i" className="flex justify-start pl-2 text-md ">
-          <li> GIT</li>
-          <li className="pl-2 pr-3"> GITHUB</li>
-          <li> SCSS</li>
-        </ol>
+    <div className="p-3">
+      <div className="grid gap-6 md:grid-cols-2">
+        <div>
+          <h5 className="p-2 dark:text-black">FrameWork and Languages</h5>
+          <div>
+            {language.map((language) => (
+              <Bar data={language} key={language.name} />
+            ))}
+          </div>
+        </div>
+        <div>
+          <h5 className="dark:text-black">Tools</h5>
+          <div>
+            {tools.map((tools) => (
+              <Bar data={tools} key={tools.name} />
+            ))}
+          </div>
+        </div>
       </div>
-    </m.div>
+    </div>
   );
 };
-
-export default Skills;
+export default Resume;

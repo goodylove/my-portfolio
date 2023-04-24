@@ -3,6 +3,8 @@
 // import img2 from "/next.svg";
 // import img3 from "/js.png";
 
+import { BsCircleFill } from "react-icons/bs";
+
 export const skills = {
   skills: [
     { img: "/./hm.jpeg", name: "HTML5" },
@@ -38,3 +40,20 @@ export const aboutMe = {
     },
   ],
 };
+
+export const language = [
+  { name: "Html", level: "100%", Icon: BsCircleFill },
+  { name: "Css", level: "100%", Icon: BsCircleFill },
+  { name: "javascript", level: "99%", Icon: BsCircleFill },
+  { name: "tailwind css", level: "100%", Icon: BsCircleFill },
+  { name: "React", level: "95%", Icon: BsCircleFill },
+  { name: "Typescript", level: "90%", Icon: BsCircleFill },
+
+  { name: "Next js", level: "90%", Icon: BsCircleFill },
+];
+export const tools = [
+  { name: "Git", level: "95%", Icon: BsCircleFill },
+  { name: "GitHub", level: "95%", Icon: BsCircleFill },
+  { name: "Figma", level: "90%", Icon: BsCircleFill },
+  { name: "Sass", level: "90%", Icon: BsCircleFill },
+];

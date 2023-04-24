@@ -23,17 +23,17 @@ const About = ({ data }: aboutMeProps) => {
       initial="hidden"
       animate="show"
     >
-      <h4 className="pl-3 pr-3 text-sm">
+      <h4 className="pl-3 pr-3 text-sm dark:text-black ">
         {data.title.map((text, index) => {
           return <p key={index}>{text}</p>;
         })}
       </h4>
       <div className="pl-2 m-2">
-        <span className=" text-xl border-b-4 border-blue-400 ">
+        <span className=" text-xl border-b-4 border-blue-400 dark:text-black dark:border-[#02855a]">
           My Experinces
         </span>
       </div>
-      <div>
+      <div className="pl-2">
         <ul>
           {data.experiences.map((text, index) => {
             return (
@@ -44,8 +44,12 @@ const About = ({ data }: aboutMeProps) => {
                 initial="hidden"
                 animate="show"
               >
-                <span className="text-mdl text-blue-400">{text.role}</span>
-                <span className="text-sm">{text.description}</span>
+                <span className="text-mdl text-blue-400 dark:text-[#02855a]">
+                  {text.role}
+                </span>
+                <span className="text-sm dark:text-black">
+                  {text.description}
+                </span>
               </m.li>
             );
           })}
@@ -53,11 +57,11 @@ const About = ({ data }: aboutMeProps) => {
       </div>
       <div className="pl-3  mb-2 mt-2 w-full">
         <Link href="tel:+234-9068-557-284">
-          <button className="bg-blue-400 rounded-md text-white p-2 shadow-md">
+          <button className="bg-blue-400 rounded-md text-white p-2 shadow-md dark:bg-[#02855a]">
             Contact Me
           </button>
         </Link>
-        <button className="bg-blue-400 rounded-md text-white p-2 shadow-md m-2">
+        <button className="bg-blue-400 rounded-md text-white p-2 shadow-md m-2 dark:bg-[#02855a]">
           Download resume
         </button>
       </div>

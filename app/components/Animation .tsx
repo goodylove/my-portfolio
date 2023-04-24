@@ -21,3 +21,5 @@ export const item = {
   hidden: { y: "60px" },
   show: { y: "0", transition: { duration: 0.5 } },
 };
+
+// skill animation
