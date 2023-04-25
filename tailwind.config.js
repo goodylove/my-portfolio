@@ -5,9 +5,10 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
     "./app/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: "class",
   theme: {
     fontFamily: {
-      sans: ["Kaushan Script"],
+      sans: ["Poppins"],
     },
     extend: {
       backgroundImage: {
