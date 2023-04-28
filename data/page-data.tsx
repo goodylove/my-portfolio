@@ -67,7 +67,8 @@ export const project: Iprojects[] = [
     img: "/images/netflix.jpg",
     technology: ["html", "css", "javascript"],
     github: "https://github.com/nwachukwugoodness/netflix-clone-demo",
-    pageLink: "https://silion.vercel.app/",
+    pageLink:
+      "https://netflix-clone-demo-b278wogig-goodyc474-gmailcom.vercel.app/",
   },
   {
     name: "Silon",
@@ -84,7 +85,7 @@ export const project: Iprojects[] = [
     img: "/images/tracker.jpg",
     technology: ["react", "css"],
     github: "https://nwachukwugoodness.github.io/tracker/",
-    pageLink: "https://silion.vercel.app/",
+    pageLink: "https://tracker-indol-omega.vercel.app/",
   },
   {
     name: "Plant website",
@@ -93,7 +94,7 @@ export const project: Iprojects[] = [
     img: "/images/e-commerce.jpg",
     technology: ["react", "tailwind css"],
     github: "https://nwachukwugoodness.github.io/igbobo/",
-    pageLink: "https://silion.vercel.app/",
+    pageLink: "https://igbobo.vercel.app/",
   },
   {
     name: "Fintech landing page",
@@ -102,7 +103,7 @@ export const project: Iprojects[] = [
     img: "/images/fintech.jpg",
     technology: ["react", "tailwind css"],
     github: "https://nwachukwugoodness.github.io/Fintech-landing-page/",
-    pageLink: "https://silion.vercel.app/",
+    pageLink: "https://fintech-landing-page-9d1snvnvo-goodyc474.vercel.app/",
   },
   {
     name: "My-resume",
@@ -111,7 +112,7 @@ export const project: Iprojects[] = [
     img: "/images/resume.jpg",
     technology: ["next js", "typescript", "tailwind css"],
     github: "https://github.com/nwachukwugoodness/silion",
-    pageLink: "https://silion.vercel.app/",
+    pageLink: "https://my-resume-eye2zys1q-goodyc474-gmailcom.vercel.app/",
   },
   {
     name: "Real estate website",
@@ -145,7 +146,7 @@ export const project: Iprojects[] = [
     img: "/images/admin-dashboard.jpg",
     technology: ["react", "sass"],
     github: "https://nwachukwugoodness.github.io/admin-dashboard/",
-    pageLink: "https://silion.vercel.app/",
+    pageLink: "https://admin-dashboard-flame-ten.vercel.app/",
   },
   {
     name: "Birthday reminder app",
@@ -155,7 +156,8 @@ export const project: Iprojects[] = [
     img: "/images/birth.jpg",
     technology: ["html", "tailwind css", "javascript"],
     github: "https://nwachukwugoodness.github.io/Birthday-Reminder-Mobile-App/",
-    pageLink: "https://silion.vercel.app/",
+    pageLink:
+      "https://birthday-reminder-mobile-2reqony1m-goodyc474-gmailcom.vercel.app/",
   },
   // {
   //   name: "simple website",

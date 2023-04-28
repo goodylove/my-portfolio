@@ -61,9 +61,11 @@ const About = ({ data }: aboutMeProps) => {
             Contact Me
           </button>
         </Link>
-        <button className="bg-blue-400 rounded-md text-white p-2 shadow-md m-2 dark:bg-[#02855a]">
-          Download resume
-        </button>
+        {/* <Link href="/images/Resume Goodness.pdf">
+          <button className="bg-blue-400 rounded-md text-white p-2 shadow-md m-2 dark:bg-[#02855a]">
+            Download resume
+          </button>
+        </Link> */}
       </div>
     </m.div>
   );

@@ -1,11 +1,17 @@
 import { project } from "@/data/page-data";
+import { container, item } from "../components/Animation ";
+import { motion as m } from "framer-motion";
 
-import projectProps from "./ProjectCard";
 import ProjectCard from "./ProjectCard";
 
 const Project = () => {
   return (
-    <div className="grid grid-cols-12 gap-4  relative  overflow-y-scroll project md:h-[60vh]">
+    <m.div
+      className="grid grid-cols-12 gap-4  content-center  relative  overflow-y-scroll project md:h-[60vh] dark:project2"
+      variants={item}
+      initial="hidden"
+      animate="show"
+    >
       {project.map((project, index) => {
         return (
           <div
@@ -16,7 +22,7 @@ const Project = () => {
           </div>
         );
       })}
-    </div>
+    </m.div>
   );
 };
 

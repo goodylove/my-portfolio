@@ -5,6 +5,7 @@ import Image from "next/image";
 import { SocialIcon } from "react-social-icons";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 import DarkMode from "./DarkMode";
+import Link from "next/link";
 
 const SideBar = () => {
   return (
@@ -25,13 +26,13 @@ const SideBar = () => {
         Software Developer
       </p>
       <p>
-        <a
-          href=""
+        <Link
+          href="/images/Resume Goodness.pdf"
           className="bg-white  rounded-full dark:bg-white  px-8 py-1  my-3 flex  font-bold  justify-center items-center text-sm text-blue-400 dark:text-black "
         >
           <AiOutlineCloudDownload />
           Download resume
-        </a>
+        </Link>
       </p>
       <div className="">
         <SocialIcon
@@ -74,7 +75,7 @@ const SideBar = () => {
       
       my-3 rounded-full dark:bg-black"
       >
-        <DarkMode  />
+        <DarkMode />
       </button>
     </div>
   );

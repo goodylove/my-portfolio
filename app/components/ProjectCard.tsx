@@ -23,7 +23,7 @@ const ProjectCard: FunctionComponent<{ data: Iprojects }> = ({
         priority
         onClick={() => setShowDetails(true)}
       />
-      <p className="my-2 text-center">{name}</p>
+      <p className="my-2 text-center dark:text-[#02855a]">{name}</p>
 
       {showDetails && (
         <ModalComp

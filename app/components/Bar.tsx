@@ -19,7 +19,7 @@ const Bar = ({ data: { name, Icon, level } }: skillProps) => {
   };
   return (
     <m.div
-      className="m-3 text-white bg-slate-800  rounded-full dark:bg-gray-200"
+      className="m-5 text-white bg-slate-800  rounded-full dark:bg-gray-200"
       variants={container}
       initial="hidden"
       animate="show"
