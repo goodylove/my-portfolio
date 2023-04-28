@@ -2,6 +2,7 @@
 // import img1 from "/react.png";
 // import img2 from "/next.svg";
 // import img3 from "/js.png";
+import { Iprojects } from "@/types";
 
 import { BsCircleFill } from "react-icons/bs";
 
@@ -58,26 +59,26 @@ export const tools = [
   { name: "Sass", level: "90%", Icon: BsCircleFill },
 ];
 
-export const project = [
+export const project: Iprojects[] = [
   {
-    name: "netflix clone",
+    name: "Netflix clone",
     description:
       "This is a simple neftlix clone website,which includes sigin page and login page",
     img: "/images/netflix.jpg",
-    technology: ["Hmtl", "Css", "javascript"],
+    technology: ["html", "css", "javascript"],
     github: "https://github.com/nwachukwugoodness/netflix-clone-demo",
     pageLink: "https://silion.vercel.app/",
   },
   {
-    name: "silon",
+    name: "Silon",
     description: "This is a mini-shop website where ladies wears are sold",
     img: "/images/silon.jpg",
-    technology: ["html", "css", "javascript", "intersectionOberserve"],
+    technology: ["html", "css", "javascript"],
     github: "https://github.com/nwachukwugoodness/silion",
     pageLink: "https://silion.vercel.app/",
   },
   {
-    name: "tracker",
+    name: "Tracker",
     description:
       "A simple react app that keeps track of expenses and income of the user",
     img: "/images/tracker.jpg",
@@ -86,33 +87,34 @@ export const project = [
     pageLink: "https://silion.vercel.app/",
   },
   {
-    name: "simple plant website",
+    name: "Plant website",
     description:
       "A simple plant website  which i used to practice how to add item to cart and remove items from cart using react-app",
     img: "/images/e-commerce.jpg",
-    technology: ["react", "taiwind css"],
+    technology: ["react", "tailwind css"],
     github: "https://nwachukwugoodness.github.io/igbobo/",
     pageLink: "https://silion.vercel.app/",
   },
   {
-    name: "fintech landing page",
-    description: "A fintech landing page which includes testimonals  and FAQ",
+    name: "Fintech landing page",
+    description:
+      "A fintech landing page which includes a functional  testimonals  and FAQ",
     img: "/images/fintech.jpg",
-    technology: ["react", "taiwind css"],
+    technology: ["react", "tailwind css"],
     github: "https://nwachukwugoodness.github.io/Fintech-landing-page/",
     pageLink: "https://silion.vercel.app/",
   },
   {
-    name: "my-resume",
+    name: "My-resume",
     description:
       "my reumes which i built with next js typescript and tailwind css",
     img: "/images/resume.jpg",
-    technology: ["next js", "typescript", "taiwind css"],
+    technology: ["next js", "typescript", "tailwind css"],
     github: "https://github.com/nwachukwugoodness/silion",
     pageLink: "https://silion.vercel.app/",
   },
   {
-    name: "simple real estate webiste",
+    name: "Real estate website",
     description:
       "A simple real estate webiste which show different properties with different prices",
     img: "/images/funiture.jpg",
@@ -121,16 +123,16 @@ export const project = [
     pageLink: "https://real-estate-simple-home-page.vercel.app/",
   },
   {
-    name: "simple cake website",
-    img: "/images/cake.jpg",
+    name: "Cake website",
     description:
       "A cake website ,you use  the search secton to search any cake of your choice",
-    technology: ["Html", "css", "javascript"],
+    img: "/images/cake.jpg",
+    technology: ["html", "css", "javascript"],
     github: "https://nwachukwugoodness.github.io/simple-cake-website/",
     pageLink: "https://simple-cake-website.vercel.app/",
   },
   {
-    name: "quiz app",
+    name: "Quiz app",
     description: "A quiz app which has both English and Mathematics qestions.",
     img: "/images/quiz.jpg",
     technology: ["html", "css", "javascript"],
@@ -138,28 +140,30 @@ export const project = [
     pageLink: "https://quiz-app-seven-lac.vercel.app/",
   },
   {
-    name: "simple admin-dashboard",
+    name: "Admin-dashboard",
+    description: "i used this site to learn and understand how sass works",
     img: "/images/admin-dashboard.jpg",
     technology: ["react", "sass"],
     github: "https://nwachukwugoodness.github.io/admin-dashboard/",
     pageLink: "https://silion.vercel.app/",
   },
   {
-    name: "birthday reminder app",
-    description: "This is a birth reminder app ",
+    name: "Birthday reminder app",
+    description:
+      "This is a birth reminder app which i built solely to help remind us of our love ones birthdays",
 
     img: "/images/birth.jpg",
-    technology: ["html", "taiwind css", "javascript"],
+    technology: ["html", "tailwind css", "javascript"],
     github: "https://nwachukwugoodness.github.io/Birthday-Reminder-Mobile-App/",
     pageLink: "https://silion.vercel.app/",
   },
-  {
-    name: "simple website",
-    img: "/images/cart.jpg",
-    technology: ["html", "css", "javascript"],
-    github: "https://github.com/nwachukwugoodness/silion",
-    pageLink: "https://cart-gamma-swart.vercel.app/",
-  },
+  // {
+  //   name: "simple website",
+  //   img: "/images/cart.jpg",
+  //   technology: ["html", "css", "javascript"],
+  //   github: "https://github.com/nwachukwugoodness/silion",
+  //   pageLink: "https://cart-gamma-swart.vercel.app/",
+  // },
 ];
 // https://analog-clock-cyan-five.vercel.app/
 // https://nwachukwugoodness.github.io/music-App/
