@@ -3,6 +3,9 @@
 import { project } from "@/data/page-data";
 import { FunctionComponent, useState } from "react";
 import { Iprojects } from "@/types";
+import { container, item, stagger } from "../components/Animation ";
+import { motion as m } from "framer-motion";
+
 import Image from "next/image";
 
 import ModalComp from "./ModalComponents";
@@ -13,7 +16,7 @@ const ProjectCard: FunctionComponent<{ data: Iprojects }> = ({
   const [showDetails, setShowDetails] = useState<boolean>(false);
 
   return (
-    <div className="rounded-md shodow-lg">
+    <div>
       <Image
         src={img}
         alt="project-image"

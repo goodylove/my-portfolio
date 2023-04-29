@@ -2,6 +2,8 @@ import React from "react";
 import { Iprojects } from "@/types";
 import Image from "next/image";
 import Link from "next/link";
+import { container, item, stagger } from "../components/Animation ";
+import { motion as m } from "framer-motion";
 import { AiFillGitlab, AiFillProject } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
 // import Modal from "react-modal";
@@ -26,8 +28,14 @@ const ModalComp = ({
   closed,
 }: dataProps) => {
   return (
-    <div className="md:w-[50%] md:h-[50%] bg-gray-50  fixed top-[20%] md:right-[8rem] p-3 rounded-md right-[40px] w-[85%] ">
-      <div className="grid md:grid-cols-2 p-3  h-full  gap-x-12  bg-gray-900  dark:bg-[#02855a]  content-center rounded-md">
+    <m.div
+      className="md:w-[50%] md:h-[50%] bg-gray-50  fixed top-[20%] right-[8rem] p-3 rounded-md z-50 w-[80%]
+  "
+      variants={container}
+      initial="hidden"
+      animate="show"
+    >
+      <div className="grid md:grid-cols-2 p-3  h-full  gap-x-12  bg-gray-900 dark:bg-[#02855a]  content-center rounded-md">
         <div>
           <Image
             src={img}
@@ -74,7 +82,7 @@ const ModalComp = ({
           <MdClose />
         </button>
       </div>
-    </div>
+    </m.div>
   );
 };
 
