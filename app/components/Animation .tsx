@@ -18,8 +18,21 @@ export const container = {
 };
 
 export const item = {
-  hidden: { y: "60px" },
-  show: { y: "0", transition: { duration: 0.5 } },
+  hidden: { y: "10px", opacity: 0 },
+  show: { y: "0", opacity: 1 },
 };
 
+export const stagger = {
+  hidden: {},
+  show: {
+    transition: {
+      staggerChildren: 0.5,
+    },
+  },
+};
+export const pro = {
+  show: {
+    rotate: 360,
+  },
+};
 // skill animation

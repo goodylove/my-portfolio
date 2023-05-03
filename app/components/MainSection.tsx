@@ -14,7 +14,7 @@ const HomeSection = () => {
   return (
     <div className="">
       <Nav data={activeItem} setActiveItem={setActiveItem} />
-      <div>
+      <div className="relative">
         {activeItem === "About" ? <About data={aboutMe} /> : ""}
         {activeItem === "Skills" ? <Skills /> : ""}
         {activeItem === "Project" ? <Project /> : ""}

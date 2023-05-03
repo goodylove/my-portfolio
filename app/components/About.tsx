@@ -30,7 +30,7 @@ const About = ({ data }: aboutMeProps) => {
       </h4>
       <div className="pl-2 m-2">
         <span className=" text-xl border-b-4 border-blue-400 dark:text-black dark:border-[#02855a]">
-          My Experinces
+          My Experiences
         </span>
       </div>
       <div className="pl-2">
@@ -61,9 +61,11 @@ const About = ({ data }: aboutMeProps) => {
             Contact Me
           </button>
         </Link>
-        <button className="bg-blue-400 rounded-md text-white p-2 shadow-md m-2 dark:bg-[#02855a]">
-          Download resume
-        </button>
+        {/* <Link href="/images/Resume Goodness.pdf">
+          <button className="bg-blue-400 rounded-md text-white p-2 shadow-md m-2 dark:bg-[#02855a]">
+            Download resume
+          </button>
+        </Link> */}
       </div>
     </m.div>
   );

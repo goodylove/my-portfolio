@@ -2,6 +2,7 @@
 // import img1 from "/react.png";
 // import img2 from "/next.svg";
 // import img3 from "/js.png";
+import { Iprojects } from "@/types";
 
 import { BsCircleFill } from "react-icons/bs";
 
@@ -25,13 +26,13 @@ export const aboutMe = {
     {
       role: "FrontEnd Developer",
       description:
-        "Design and implement functionalities on webpages. Collaborate with cross-functional teams to develop and launch new products and features. Provide asistance  to frontend dev newbies.",
+        "Design and implement functionalities on webpages. Collaborate with cross-functional teams to develop and launch new products and features using ReactJs,Typescript,tailwind css.",
     },
 
     {
       role: "FrontEnd Developer",
       description:
-        "Designed and contributed and  implemented About Page , Contact page , Registration page of Florintech Computer College  ",
+        "I implemented and  contributed  to  About Page , Contact page , Registration page  and the responsivness of Florintech Computer College  website using Next js, framer-motion and Sass.  ",
     },
     {
       role: "Frontend Developer ",
@@ -57,3 +58,113 @@ export const tools = [
   { name: "Figma", level: "90%", Icon: BsCircleFill },
   { name: "Sass", level: "90%", Icon: BsCircleFill },
 ];
+
+export const project: Iprojects[] = [
+  {
+    name: "Netflix clone",
+    description:
+      "This is a simple neftlix clone website,which includes sigin page and login page",
+    img: "/images/netflix.jpg",
+    technology: ["html", "css", "javascript"],
+    github: "https://netflix-clone-demo-ten.vercel.app/",
+    pageLink: "https://netflix-clone-demo-ten.vercel.app/",
+  },
+  {
+    name: "Silon",
+    description: "This is a mini-shop website where ladies wears are sold",
+    img: "/images/silon.jpg",
+    technology: ["html", "css", "javascript"],
+    github: "https://goodylove.github.io/silion/",
+    pageLink: "https://silion.vercel.app/",
+  },
+  {
+    name: "Tracker",
+    description:
+      "A simple react app that keeps track of expenses and income of the user",
+    img: "/images/tracker.jpg",
+    technology: ["react", "css"],
+    github: " ",
+    pageLink: "https://tracker-indol-omega.vercel.app/",
+  },
+  {
+    name: "Plant website",
+    description:
+      "A simple plant website  which i used to practice how to add item to cart and remove items from cart using react-app",
+    img: "/images/e-commerce.jpg",
+    technology: ["react", "tailwind css"],
+    github: "",
+    pageLink: "https://igbobo.vercel.app/",
+  },
+  {
+    name: "Fintech landing page",
+    description:
+      "A fintech landing page which includes a functional  testimonals  and FAQ",
+    img: "/images/fintech.jpg",
+    technology: ["react", "tailwind css"],
+    github: "",
+    pageLink: "https://fintech-landing-page-9d1snvnvo-goodyc474.vercel.app/",
+  },
+  {
+    name: "My-resume",
+    description:
+      "my reumes which i built with next js typescript and tailwind css",
+    img: "/images/resume.jpg",
+    technology: ["next js", "typescript", "tailwind css"],
+    github: "",
+    pageLink: "https://my-resume-eye2zys1q-goodyc474-gmailcom.vercel.app/",
+  },
+  {
+    name: "Real estate website",
+    description:
+      "A simple real estate webiste which show different properties with different prices",
+    img: "/images/funiture.jpg",
+    technology: ["html", "css", "javascript"],
+    github: "https://goodylove.github.io/real-estate-simple-home-page/",
+    pageLink: "https://real-estate-simple-home-page.vercel.app/",
+  },
+  {
+    name: "Cake website",
+    description:
+      "A cake website ,you use  the search secton to search any cake of your choice",
+    img: "/images/cake.jpg",
+    technology: ["html", "css", "javascript"],
+    github: "https://goodylove.github.io/simple-cake-website/",
+    pageLink: "https://simple-cake-website.vercel.app/",
+  },
+  {
+    name: "Quiz app",
+    description: "A quiz app which has both English and Mathematics qestions.",
+    img: "/images/quiz.jpg",
+    technology: ["html", "css", "javascript"],
+    github: "https://goodylove.github.io/quiz-app/",
+    pageLink: "https://quiz-app-seven-lac.vercel.app/",
+  },
+  {
+    name: "Admin-dashboard",
+    description: "i used this site to learn and understand how sass works",
+    img: "/images/admin-dashboard.jpg",
+    technology: ["react", "sass"],
+    github: "",
+    pageLink: "https://admin-dashboard-flame-ten.vercel.app/",
+  },
+  {
+    name: "Birthday reminder app",
+    description:
+      "This is a birth reminder app which i built solely to help remind us of our love ones birthdays",
+
+    img: "/images/birth.jpg",
+    technology: ["html", "tailwind css", "javascript"],
+    github: "https://goodylove.github.io/Birthday-Reminder-Mobile-App/",
+    pageLink:
+      "https://birthday-reminder-mobile-2reqony1m-goodyc474-gmailcom.vercel.app/",
+  },
+  // {
+  //   name: "simple website",
+  //   img: "/images/cart.jpg",
+  //   technology: ["html", "css", "javascript"],
+  //   github: "https://github.com/nwachukwugoodness/silion",
+  //   pageLink: "https://cart-gamma-swart.vercel.app/",
+  // },
+];
+// https://analog-clock-cyan-five.vercel.app/
+// https://nwachukwugoodness.github.io/music-App/

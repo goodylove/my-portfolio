@@ -27,3 +27,11 @@ body {
 * {
   transition: 0.3s ease-in-out;
 }
+.project::-webkit-scrollbar {
+  width: 0.5rem;
+  border-radius: 7px;
+  background: rgb(171, 214, 188);
+}
+.project::-webkit-scrollbar-thumb {
+  background: rgb(132, 164, 206);
+}
