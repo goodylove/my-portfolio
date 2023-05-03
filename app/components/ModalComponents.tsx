@@ -6,13 +6,13 @@ import { container, item, stagger } from "../components/Animation ";
 import { motion as m } from "framer-motion";
 import { AiFillGitlab, AiFillProject } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
-// import Modal from "react-modal";
+import { LinkComponent } from "./LinkComponent";
 interface dataProps {
   name: string;
   description: string;
   img: string;
   technology: string[];
-  github: string;
+  github?: string | undefined;
   pageLink: string;
   showDetails: boolean;
   closed: (value: false) => void;
@@ -27,9 +27,12 @@ const ModalComp = ({
   showDetails,
   closed,
 }: dataProps) => {
+  if (typeof github === "undefined") {
+    pageLink;
+  }
   return (
     <m.div
-      className="md:w-[50%] md:h-[50%] bg-gray-50  fixed top-[20%] right-[8rem] p-3 rounded-md z-50 w-[80%]
+      className="md:w-[50%] md:h-[50%] bg-gray-50  fixed md:top-[20%]  md:right-[8rem] p-3 rounded-md z-50 w-[80%] top-[30%] right-[3rem] 
   "
       variants={container}
       initial="hidden"
@@ -46,17 +49,30 @@ const ModalComp = ({
           />
           <div className="flex justify-center my-4  space-x-3">
             <Link
-              href={github}
+              href={typeof github === "undefined" ? pageLink : github}
               className="flex items-center px-4 py-2 space-x-3 "
+              target="blank"
             >
               <AiFillGitlab /> <span>GitHub</span>
             </Link>
+            {/* <LinkComponent
+              github={github}
+              pageLink=""
+              icon={<AiFillGitlab />}
+              text="Github"
+            /> */}
             <Link
               href={pageLink}
               className="flex items-center px-4 py-2 space-x-3 "
+              target="blank"
             >
               <AiFillProject /> <span>Project</span>
             </Link>
+            {/* <LinkComponent
+              pageLink={pageLink}
+              icon={<AiFillProject />}
+              text="Project"
+            /> */}
           </div>
         </div>
         <div>
@@ -77,7 +93,7 @@ const ModalComp = ({
         </div>
         <button
           onClick={() => closed(false)}
-          className="absolute p-2 rounded-full focus:outline-none top-2  right-3 text-xl"
+          className="absolute p-2 mb-2 rounded-full focus:outline-none top-2  right-3 text-xl"
         >
           <MdClose />
         </button>

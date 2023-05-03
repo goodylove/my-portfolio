@@ -3,7 +3,7 @@ export interface Iprojects {
   description: string;
   img: string;
   technology: technologypr[];
-  github: string;
+  github?: string;
   pageLink: string;
 }
 

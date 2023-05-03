@@ -30,4 +30,9 @@ export const stagger = {
     },
   },
 };
+export const pro = {
+  show: {
+    rotate: 360,
+  },
+};
 // skill animation

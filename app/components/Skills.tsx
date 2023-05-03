@@ -15,7 +15,7 @@ const Resume = () => {
     <div className="p-3">
       <div className="grid gap-6 md:grid-cols-2">
         <div>
-          <h5 className="p-2 dark:text-black">FrameWork and Languages</h5>
+          <h5 className="pl-6 dark:text-black">FrameWork and Languages</h5>
           <div>
             {language.map((language) => (
               <Bar data={language} key={language.name} />
@@ -23,7 +23,7 @@ const Resume = () => {
           </div>
         </div>
         <div>
-          <h5 className="dark:text-black">Tools</h5>
+          <h5 className="dark:text-black pl-5">Tools</h5>
           <div>
             {tools.map((tools) => (
               <Bar data={tools} key={tools.name} />

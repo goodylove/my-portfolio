@@ -42,13 +42,13 @@ const SideBar = () => {
           style={{ width: 40, height: 30 }}
         />
         <SocialIcon
-          url="https://github.com/goodylove"
+          url="https://github.com/nwachukwugoodness"
           bgColor="black"
           fgColor="white"
           style={{ width: 40, height: 30 }}
         />
         <SocialIcon
-          url="https://www.linkedin.com/in/nwachukwu goodness"
+          url="https://linkedin.com/in/nwachukwu-goodness-161910219"
           bgColor="black"
           fgColor="white"
           style={{ width: 40, height: 30 }}

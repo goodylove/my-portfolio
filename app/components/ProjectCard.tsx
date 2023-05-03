@@ -1,10 +1,7 @@
 "use client";
 
-import { project } from "@/data/page-data";
 import { FunctionComponent, useState } from "react";
 import { Iprojects } from "@/types";
-import { container, item, stagger } from "../components/Animation ";
-import { motion as m } from "framer-motion";
 
 import Image from "next/image";
 
@@ -26,7 +23,9 @@ const ProjectCard: FunctionComponent<{ data: Iprojects }> = ({
         priority
         onClick={() => setShowDetails(true)}
       />
-      <p className="my-2 text-center dark:text-[#02855a]">{name}</p>
+      <p className="my-2 text-center dark:text-[#02855a] cursor-pointer">
+        {name}
+      </p>
 
       {showDetails && (
         <ModalComp

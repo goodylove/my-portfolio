@@ -30,7 +30,7 @@ const About = ({ data }: aboutMeProps) => {
       </h4>
       <div className="pl-2 m-2">
         <span className=" text-xl border-b-4 border-blue-400 dark:text-black dark:border-[#02855a]">
-          My Experinces
+          My Experiences
         </span>
       </div>
       <div className="pl-2">
