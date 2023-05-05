@@ -51,7 +51,7 @@ const ModalComp = ({
             <Link
               href={typeof github === "undefined" ? pageLink : github}
               className="flex items-center px-4 py-2 space-x-3 "
-              target="blank"
+              target="_blank"
             >
               <AiFillGitlab /> <span>GitHub</span>
             </Link>
