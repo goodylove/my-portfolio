@@ -150,7 +150,7 @@ export const project: Iprojects[] = [
   {
     name: "Birthday reminder app",
     description:
-      "This is a birth reminder app which i built solely to help remind us of our love ones birthdays",
+      "This is a birthday  reminder app which i built solely to help remind us of our love ones birthdays",
 
     img: "/images/birth.JPG",
     technology: ["html", "tailwind css", "javascript"],
