@@ -64,7 +64,7 @@ export const project: Iprojects[] = [
     name: "Netflix clone",
     description:
       "This is a simple neftlix clone website,which includes sigin page and login page",
-    img: "/images/netflix.jpg",
+    img: "/images/netflix.JPG",
     technology: ["html", "css", "javascript"],
     github: "https://netflix-clone-demo-ten.vercel.app/",
     pageLink: "https://netflix-clone-demo-ten.vercel.app/",
@@ -72,7 +72,7 @@ export const project: Iprojects[] = [
   {
     name: "Silon",
     description: "This is a mini-shop website where ladies wears are sold",
-    img: "/images/silon.jpg",
+    img: "/images/silon.JPG",
     technology: ["html", "css", "javascript"],
     github: "https://goodylove.github.io/silion/",
     pageLink: "https://silion.vercel.app/",
@@ -81,7 +81,7 @@ export const project: Iprojects[] = [
     name: "Tracker",
     description:
       "A simple react app that keeps track of expenses and income of the user",
-    img: "/images/tracker.jpg",
+    img: "/images/tracker.JPG",
     technology: ["react", "css"],
     github: " ",
     pageLink: "https://tracker-indol-omega.vercel.app/",
@@ -90,7 +90,7 @@ export const project: Iprojects[] = [
     name: "Plant website",
     description:
       "A simple plant website  which i used to practice how to add item to cart and remove items from cart using react-app",
-    img: "/images/e-commerce.jpg",
+    img: "/images/e-commerce.JPG",
     technology: ["react", "tailwind css"],
     github: "",
     pageLink: "https://igbobo.vercel.app/",
@@ -99,7 +99,7 @@ export const project: Iprojects[] = [
     name: "Fintech landing page",
     description:
       "A fintech landing page which includes a functional  testimonals  and FAQ",
-    img: "/images/fintech.jpg",
+    img: "/images/fintech.JPG",
     technology: ["react", "tailwind css"],
     github: "",
     pageLink: "https://fintech-landing-page-9d1snvnvo-goodyc474.vercel.app/",
@@ -108,7 +108,7 @@ export const project: Iprojects[] = [
     name: "My-resume",
     description:
       "my reumes which i built with next js typescript and tailwind css",
-    img: "/images/resume.jpg",
+    img: "/images/resume.JPG",
     technology: ["next js", "typescript", "tailwind css"],
     github: "",
     pageLink: "https://my-resume-eye2zys1q-goodyc474-gmailcom.vercel.app/",
@@ -117,7 +117,7 @@ export const project: Iprojects[] = [
     name: "Real estate website",
     description:
       "A simple real estate webiste which show different properties with different prices",
-    img: "/images/funiture.jpg",
+    img: "/images/funiture.JPG",
     technology: ["html", "css", "javascript"],
     github: "https://goodylove.github.io/real-estate-simple-home-page/",
     pageLink: "https://real-estate-simple-home-page.vercel.app/",
@@ -126,7 +126,7 @@ export const project: Iprojects[] = [
     name: "Cake website",
     description:
       "A cake website ,you use  the search secton to search any cake of your choice",
-    img: "/images/cake.jpg",
+    img: "/images/cake.JPG",
     technology: ["html", "css", "javascript"],
     github: "https://goodylove.github.io/simple-cake-website/",
     pageLink: "https://simple-cake-website.vercel.app/",
@@ -134,7 +134,7 @@ export const project: Iprojects[] = [
   {
     name: "Quiz app",
     description: "A quiz app which has both English and Mathematics qestions.",
-    img: "/images/quiz.jpg",
+    img: "/images/quiz.JPG",
     technology: ["html", "css", "javascript"],
     github: "https://goodylove.github.io/quiz-app/",
     pageLink: "https://quiz-app-seven-lac.vercel.app/",
@@ -142,7 +142,7 @@ export const project: Iprojects[] = [
   {
     name: "Admin-dashboard",
     description: "i used this site to learn and understand how sass works",
-    img: "/images/admin-dashboard.jpg",
+    img: "/images/admin-dashboard.JPG",
     technology: ["react", "sass"],
     github: "",
     pageLink: "https://admin-dashboard-flame-ten.vercel.app/",
@@ -152,7 +152,7 @@ export const project: Iprojects[] = [
     description:
       "This is a birth reminder app which i built solely to help remind us of our love ones birthdays",
 
-    img: "/images/birth.jpg",
+    img: "/images/birth.JPG",
     technology: ["html", "tailwind css", "javascript"],
     github: "https://goodylove.github.io/Birthday-Reminder-Mobile-App/",
     pageLink:
@@ -160,7 +160,7 @@ export const project: Iprojects[] = [
   },
   // {
   //   name: "simple website",
-  //   img: "/images/cart.jpg",
+  //   img: "/images/cart.JPG",
   //   technology: ["html", "css", "javascript"],
   //   github: "https://github.com/nwachukwugoodness/silion",
   //   pageLink: "https://cart-gamma-swart.vercel.app/",

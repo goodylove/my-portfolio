@@ -11,12 +11,13 @@ const ProjectCard: FunctionComponent<{ data: Iprojects }> = ({
   data: { name, description, img, technology, github, pageLink },
 }) => {
   const [showDetails, setShowDetails] = useState<boolean>(false);
+  console.log(img);
 
   return (
     <div>
       <Image
         src={img}
-        alt="project-image"
+        alt={name}
         className="cursor-pointer"
         width={300}
         height={300}
