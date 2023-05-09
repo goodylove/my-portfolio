@@ -49,7 +49,7 @@ export const language = [
   { name: "tailwind css", level: "100%", Icon: BsCircleFill },
   { name: "React", level: "95%", Icon: BsCircleFill },
   { name: "Typescript", level: "90%", Icon: BsCircleFill },
-  { name: "Redux Toolkit", level: "70%", Icon: BsCircleFill },
+  { name: "ReduxToolkit", level: "80%", Icon: BsCircleFill },
 
   { name: "Next js", level: "90%", Icon: BsCircleFill },
 ];
