@@ -10,7 +10,7 @@ const Project = () => {
       variants={stagger}
       initial="hidden"
       animate="show"
-      className="grid grid-cols-12 gap-4  content-center  md:pt-[12rem]  relative  justify-items-center   md:overflow-y-scroll project  md:h-[80vh] dark:project2"
+      className="grid grid-cols-12 gap-4  p-[5px] content-center  md:pt-[12rem]  relative  justify-items-center   md:overflow-y-scroll project  md:h-[80vh] dark:project2 md:p-2"
     >
       {project.map((project, index) => {
         return (
