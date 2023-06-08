@@ -71,6 +71,15 @@ export const project: Iprojects[] = [
     pageLink: "https://netflix-clone-demo-ten.vercel.app/",
   },
   {
+    name: "vintage vision",
+    description:
+      "An e-commerce webiste where furniture and homedecor are sold ,i also implemented payment integration.",
+    img: "/images/vintage.png",
+    technology: ["react", "tailwind css", "react-router", "reduxtoolkit"],
+    github: "",
+    pageLink: "https://vintage-vision.vercel.app/",
+  },
+  {
     name: "Silon",
     description: "This is a mini-shop website where ladies wears are sold",
     img: "/images/silon.JPG",
@@ -87,15 +96,7 @@ export const project: Iprojects[] = [
     github: " ",
     pageLink: "https://tracker-indol-omega.vercel.app/",
   },
-  {
-    name: "Plant website",
-    description:
-      "A simple plant website  which i used to practice how to add item to cart and remove items from cart using react-app",
-    img: "/images/e-commerce.JPG",
-    technology: ["react", "tailwind css"],
-    github: "",
-    pageLink: "https://igbobo.vercel.app/",
-  },
+
   {
     name: "Fintech landing page",
     description:
@@ -159,6 +160,15 @@ export const project: Iprojects[] = [
     pageLink:
       "https://birthday-reminder-mobile-2reqony1m-goodyc474-gmailcom.vercel.app/",
   },
+  {
+    name: "Plant website",
+    description:
+      "A simple plant website  which i used to practice how to add item to cart and remove items from cart using react-app",
+    img: "/images/e-commerce.JPG",
+    technology: ["react", "tailwind css"],
+    github: "",
+    pageLink: "https://igbobo.vercel.app/",
+  },
   // {
   //   name: "simple website",
   //   img: "/images/cart.JPG",
@@ -167,5 +177,6 @@ export const project: Iprojects[] = [
   //   pageLink: "https://cart-gamma-swart.vercel.app/",
   // },
 ];
-// https://analog-clock-cyan-five.vercel.app/
-// https://nwachukwugoodness.github.io/music-App/
+
+//
+// https://fintech-liart.vercel.app/
