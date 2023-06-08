@@ -15,4 +15,6 @@ export type technologypr =
   | "tailwind css"
   | "next js"
   | "typescript"
+  | "reduxtoolkit"
+  | "react-router"
   | "sass";
