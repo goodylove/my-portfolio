@@ -104,15 +104,7 @@ export const project: Iprojects[] = [
 
     pageLink: "https://admin-dashboard-flame-ten.vercel.app/",
   },
-  {
-    name: "Fintech landing page",
-    description:
-      "A fintech landing page which includes a functional  testimonals  and FAQ",
-    img: "/images/fintech.JPG",
-    technology: ["react", "tailwind css"],
 
-    pageLink: "https://fintech-landing-page-9d1snvnvo-goodyc474.vercel.app/",
-  },
   {
     name: "Birthday reminder app",
     description:
