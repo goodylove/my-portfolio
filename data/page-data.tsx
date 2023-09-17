@@ -104,15 +104,7 @@ export const project: Iprojects[] = [
 
     pageLink: "https://admin-dashboard-flame-ten.vercel.app/",
   },
-  {
-    name: "Fintech landing page",
-    description:
-      "A fintech landing page which includes a functional  testimonals  and FAQ",
-    img: "/images/fintech.JPG",
-    technology: ["react", "tailwind css"],
 
-    pageLink: "https://fintech-landing-page-9d1snvnvo-goodyc474.vercel.app/",
-  },
   {
     name: "Birthday reminder app",
     description:
@@ -179,15 +171,7 @@ export const project: Iprojects[] = [
     github: "https://goodylove.github.io/real-estate-simple-home-page/",
     pageLink: "https://real-estate-simple-home-page.vercel.app/",
   },
-  {
-    name: "Cake website",
-    description:
-      "A cake website ,you use  the search secton to search any cake of your choice",
-    img: "/images/cake.JPG",
-    technology: ["html", "css", "javascript"],
-    github: "https://goodylove.github.io/simple-cake-website/",
-    pageLink: "https://simple-cake-website.vercel.app/",
-  },
+
   {
     name: "Quiz app",
     description: "A quiz app which has both English and Mathematics qestions.",
@@ -196,24 +180,4 @@ export const project: Iprojects[] = [
     github: "https://goodylove.github.io/quiz-app/",
     pageLink: "https://quiz-app-seven-lac.vercel.app/",
   },
-
-  {
-    name: "Plant website",
-    description:
-      "A simple plant website  which i used to practice how to add item to cart and remove items from cart using react-app",
-    img: "/images/e-commerce.JPG",
-    technology: ["react", "tailwind css"],
-
-    pageLink: "https://igbobo.vercel.app/",
-  },
-  // {
-  //   name: "simple website",
-  //   img: "/images/cart.JPG",
-  //   technology: ["html", "css", "javascript"],
-  //   github: "https://github.com/nwachukwugoodness/silion",
-  //   pageLink: "https://cart-gamma-swart.vercel.app/",
-  // },
 ];
-
-//
-// https://fintech-liart.vercel.app/
