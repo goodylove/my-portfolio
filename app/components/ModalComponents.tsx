@@ -32,7 +32,7 @@ const ModalComp = ({
   }
   return (
     <m.div
-      className="md:w-[50%] md:h-[50%] bg-gray-50  fixed md:top-[20%]  md:right-[8rem] p-3 rounded-md z-50 w-[80%] top-[30%] right-[3rem] 
+      className="md:w-[50%] md:h-[50%] bg-gray-50  fixed md:top-[20%]  md:right-[8rem] p-3 rounded-md z-50 w-[80%] top-[25%] right-[3rem] 
   "
       variants={container}
       initial="hidden"
@@ -43,18 +43,18 @@ const ModalComp = ({
           <Image
             src={img}
             alt="project-image"
-            width={300}
-            height={300}
+            width={250}
+            height={250}
             priority
           />
           <div className="flex justify-center my-4  space-x-3">
-            <Link
+            {/* <Link
               href={typeof github === "undefined" ? pageLink : github}
               className="flex items-center px-4 py-2 space-x-3 "
               target="_blank"
             >
               <AiFillGitlab /> <span>GitHub</span>
-            </Link>
+            </Link> */}
             {/* <LinkComponent
               github={github}
               pageLink=""
@@ -76,14 +76,14 @@ const ModalComp = ({
           </div>
         </div>
         <div>
-          <h2 className="mb-3 text-xl  font-medium">{name}</h2>
-          <h3 className="mb-3 font-medium">{description}</h3>
-          <div className="flex flex-wrap mt-5 space-x-2  tracking-wider">
+          <h2 className="mb-2 text-xl  font-medium">{name}</h2>
+          <h3 className="mb-1 text-[12px]">{description}</h3>
+          <div className="  grid grid-cols-3  tracking-wider">
             {technology.map((technology, index) => {
               return (
                 <span
                   key={index}
-                  className="px-2 py-1 my-1 bg-black rounded-sm"
+                  className="p-1  bg-black rounded-sm text-[7px] m-1 w-fit"
                 >
                   {technology}
                 </span>
