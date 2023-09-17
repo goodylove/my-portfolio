@@ -17,4 +17,7 @@ export type technologypr =
   | "typescript"
   | "reduxtoolkit"
   | "react-router"
-  | "sass";
+  | "sass"
+  | "chakra ui"
+  | "firebase"
+  | "tomtom map api";
