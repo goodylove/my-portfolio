@@ -18,7 +18,7 @@ const ProjectCard: FunctionComponent<{ data: Iprojects }> = ({
       <Image
         src={img}
         alt={name}
-        className="cursor-pointer"
+        className="cursor-pointer object-cover"
         width={300}
         height={300}
         priority
