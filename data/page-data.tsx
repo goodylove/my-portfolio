@@ -62,30 +62,66 @@ export const tools = [
 
 export const project: Iprojects[] = [
   {
-    name: "Netflix clone",
+    name: "florintech college  website",
     description:
-      "This is a simple neftlix clone website,which includes sigin page and login page",
-    img: "/images/netflix.JPG",
-    technology: ["html", "css", "javascript"],
-    github: "https://netflix-clone-demo-ten.vercel.app/",
-    pageLink: "https://netflix-clone-demo-ten.vercel.app/",
+      "Florintech Computer College is a cutting-edge institution dedicated to providing top-tier education and training in the field of computer science and technology. ",
+    img: "/images/florintechimg.JPG",
+    technology: ["html", "sass", "next js"],
+
+    pageLink: "https://www.florintechcomputercollege.com/",
   },
+  {
+    name: "uber app",
+    description:
+      "The Uber app is a user-friendly  application that revolutionized the transportation . It allows users to easily request rides from a network of drivers using their smartphones. Users can input their destination, view fare estimates, and select from various ride options,  depending on their preferences and budget.",
+    img: "/images/uber.JPG",
+    technology: [
+      "html",
+      "tailwind css",
+      "react",
+      "react-router",
+      "firebase",
+      "tomtom map api",
+    ],
+
+    pageLink: "https://uber-app-hazel.vercel.app/",
+  },
+
   {
     name: "vintage vision",
     description:
       "An e-commerce webiste where furniture and homedecor are sold ,i also implemented payment integration.",
     img: "/images/vintage.png",
     technology: ["react", "tailwind css", "react-router", "reduxtoolkit"],
-    github: "",
+
     pageLink: "https://vintage-vision.vercel.app/",
   },
   {
-    name: "Silon",
-    description: "This is a mini-shop website where ladies wears are sold",
-    img: "/images/silon.JPG",
-    technology: ["html", "css", "javascript"],
-    github: "https://goodylove.github.io/silion/",
-    pageLink: "https://silion.vercel.app/",
+    name: "Admin-dashboard",
+    description: "i used this site to learn and understand how sass works",
+    img: "/images/admin-dashboard.JPG",
+    technology: ["react", "sass"],
+
+    pageLink: "https://admin-dashboard-flame-ten.vercel.app/",
+  },
+  {
+    name: "Fintech landing page",
+    description:
+      "A fintech landing page which includes a functional  testimonals  and FAQ",
+    img: "/images/fintech.JPG",
+    technology: ["react", "tailwind css"],
+
+    pageLink: "https://fintech-landing-page-9d1snvnvo-goodyc474.vercel.app/",
+  },
+  {
+    name: "Birthday reminder app",
+    description:
+      "This is a birthday  reminder app which i built solely to help remind us of our love ones birthdays",
+
+    img: "/images/birth.JPG",
+    technology: ["html", "tailwind css", "javascript"],
+    pageLink:
+      "https://birthday-reminder-mobile-2reqony1m-goodyc474-gmailcom.vercel.app/",
   },
   {
     name: "Tracker",
@@ -93,8 +129,17 @@ export const project: Iprojects[] = [
       "A simple react app that keeps track of expenses and income of the user",
     img: "/images/tracker.JPG",
     technology: ["react", "css"],
-    github: " ",
+
     pageLink: "https://tracker-indol-omega.vercel.app/",
+  },
+  {
+    name: "Netflix clone",
+    description:
+      "This is a simple neftlix clone website,which includes sigin page and login page",
+    img: "/images/netflix.JPG",
+    technology: ["html", "css", "javascript"],
+
+    pageLink: "https://netflix-clone-demo-ten.vercel.app/",
   },
 
   {
@@ -103,16 +148,26 @@ export const project: Iprojects[] = [
       "A fintech landing page which includes a functional  testimonals  and FAQ",
     img: "/images/fintech.JPG",
     technology: ["react", "tailwind css"],
-    github: "",
+
     pageLink: "https://fintech-landing-page-9d1snvnvo-goodyc474.vercel.app/",
   },
+
+  {
+    name: "Silon",
+    description: "This is a mini-shop website where ladies wears are sold",
+    img: "/images/silon.JPG",
+    technology: ["html", "css", "javascript"],
+    github: "https://goodylove.github.io/silion/",
+    pageLink: "https://silion.vercel.app/",
+  },
+
   {
     name: "My-resume",
     description:
       "my reumes which i built with next js typescript and tailwind css",
     img: "/images/resume.JPG",
     technology: ["next js", "typescript", "tailwind css"],
-    github: "",
+
     pageLink: "https://my-resume-eye2zys1q-goodyc474-gmailcom.vercel.app/",
   },
   {
@@ -141,32 +196,14 @@ export const project: Iprojects[] = [
     github: "https://goodylove.github.io/quiz-app/",
     pageLink: "https://quiz-app-seven-lac.vercel.app/",
   },
-  {
-    name: "Admin-dashboard",
-    description: "i used this site to learn and understand how sass works",
-    img: "/images/admin-dashboard.JPG",
-    technology: ["react", "sass"],
-    github: "",
-    pageLink: "https://admin-dashboard-flame-ten.vercel.app/",
-  },
-  {
-    name: "Birthday reminder app",
-    description:
-      "This is a birthday  reminder app which i built solely to help remind us of our love ones birthdays",
 
-    img: "/images/birth.JPG",
-    technology: ["html", "tailwind css", "javascript"],
-    github: "https://goodylove.github.io/Birthday-Reminder-Mobile-App/",
-    pageLink:
-      "https://birthday-reminder-mobile-2reqony1m-goodyc474-gmailcom.vercel.app/",
-  },
   {
     name: "Plant website",
     description:
       "A simple plant website  which i used to practice how to add item to cart and remove items from cart using react-app",
     img: "/images/e-commerce.JPG",
     technology: ["react", "tailwind css"],
-    github: "",
+
     pageLink: "https://igbobo.vercel.app/",
   },
   // {
