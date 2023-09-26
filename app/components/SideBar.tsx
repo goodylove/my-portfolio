@@ -27,7 +27,7 @@ const SideBar = () => {
       </p>
       <p>
         <Link
-          href="/images/Resume Goodness.pdf"
+          href="/images/NWACHUKWU GOODNESS2 Cv.pdf"
           className="bg-white  rounded-full dark:bg-white  px-8 py-1  my-3 flex  font-bold  justify-center items-center text-sm text-blue-400 dark:text-black "
         >
           <AiOutlineCloudDownload />

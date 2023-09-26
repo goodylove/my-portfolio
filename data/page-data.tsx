@@ -18,26 +18,20 @@ export const skills = {
 };
 export const aboutMe = {
   title: [
-    "I’m a front-end web developer with over a year of experience. I work with agencies across the globe to create high performance & rich interactive websites that work across all platforms & devices.",
-    "I'm very familiar with using frameworks, my websites are primarily hand-coded using HTML5, CSS3, JavaScript,React & typscript..",
-    "As a highly motivated and driven individual with a passion for making a positive impact, I have a unique blend of technical and interpersonal skills, I am able to tackle complex problems with ease, and I never lose sight of my ultimate goal, even when facing challenges.",
+    "Hi, I'm  Goodness",
+    "Frontend Developer Driven by a love for aesthetics and user-centric design, my journey in web  development has been thrilling! ,I possess a talent for creating functional and visually pleasing applications and I aim to provide users with outstanding experiences.No matter how complex, i'll make them love it🥰.",
   ],
   experiences: [
     {
-      role: "FrontEnd Developer",
-      description:
-        "Design and implement functionalities on webpages. Collaborate with cross-functional teams to develop and launch new products and features using ReactJs,Typescript,tailwind css.",
+      role: "Frontend Developer Intern ",
+      title: "Florintech Computer College ",
+      description: "April 2022 - August 2023",
     },
 
     {
-      role: "FrontEnd Developer",
-      description:
-        "I implemented and  contributed  to  About Page , Contact page , Registration page  and the responsivness of Florintech Computer College  website using Next js, framer-motion and Sass.  ",
-    },
-    {
-      role: "Frontend Developer ",
-      description:
-        "Designed and implemented a birthday reminder app,mainly use for saving friends and family  birthday date and help with sending birthday wishes directly from the app. Built with Html Tailwind css javascript and git.",
+      role: "FrontEnd Developer Intern",
+      title: "Zuri HNG",
+      description: "September 2023 - Present.",
     },
   ],
 };
@@ -60,7 +54,7 @@ export const tools = [
   { name: "Sass", level: "90%", Icon: BsCircleFill },
 ];
 
-export const project: Iprojects[] = [
+export const projects: Iprojects[] = [
   {
     name: "florintech college  website",
     description:
@@ -153,15 +147,15 @@ export const project: Iprojects[] = [
     pageLink: "https://silion.vercel.app/",
   },
 
-  {
-    name: "My-resume",
-    description:
-      "my reumes which i built with next js typescript and tailwind css",
-    img: "/images/resume.JPG",
-    technology: ["next js", "typescript", "tailwind css"],
+  // {
+  //   name: "My-resume",
+  //   description:
+  //     "my reumes which i built with next js typescript and tailwind css",
+  //   img: "/images/resume.JPG",
+  //   technology: ["next js", "typescript", "tailwind css"],
 
-    pageLink: "https://my-resume-eye2zys1q-goodyc474-gmailcom.vercel.app/",
-  },
+  //   pageLink: "https://my-resume-eye2zys1q-goodyc474-gmailcom.vercel.app/",
+  // },
   {
     name: "Real estate website",
     description:
@@ -172,12 +166,12 @@ export const project: Iprojects[] = [
     pageLink: "https://real-estate-simple-home-page.vercel.app/",
   },
 
-  {
-    name: "Quiz app",
-    description: "A quiz app which has both English and Mathematics qestions.",
-    img: "/images/quiz.JPG",
-    technology: ["html", "css", "javascript"],
-    github: "https://goodylove.github.io/quiz-app/",
-    pageLink: "https://quiz-app-seven-lac.vercel.app/",
-  },
+  // {
+  //   name: "Quiz app",
+  //   description: "A quiz app which has both English and Mathematics qestions.",
+  //   img: "/images/quiz.JPG",
+  //   technology: ["html", "css", "javascript"],
+  //   github: "https://goodylove.github.io/quiz-app/",
+  //   pageLink: "https://quiz-app-seven-lac.vercel.app/",
+  // },
 ];

@@ -1,10 +1,10 @@
-import { project } from "@/data/page-data";
+import { projects } from "@/data/page-data";
 import { container, item, pro, stagger } from "../components/Animation ";
 import { motion as m } from "framer-motion";
 
 import ProjectCard from "./ProjectCard";
 
-const Project = () => {
+const Projects = () => {
   return (
     <m.div
       variants={stagger}
@@ -12,13 +12,13 @@ const Project = () => {
       animate="show"
       className="grid grid-cols-12 gap-4  p-[3px] content-center  md:pt-[12rem]  relative  justify-items-center  md:mt-5  md:overflow-y-scroll project  md:h-[89vh] dark:project2 md:p-2"
     >
-      {project.map((project, index) => {
+      {projects.map((projects, index) => {
         return (
           <m.div
             className="col-span-12 sm:col-span-6 md:col-span-4"
             key={index}
           >
-            <ProjectCard data={project} key={project.name} />
+            <ProjectCard data={projects} key={projects.name} />
           </m.div>
         );
       })}
@@ -26,4 +26,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Projects;

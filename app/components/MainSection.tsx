@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Nav from "./Nav";
-import Project from "../components/Project";
+import Projects from "../components/Project";
 import Resume from "./Skills";
 import About from "./About";
 import { aboutMe, skills, language } from "@/data/page-data";
@@ -17,7 +17,7 @@ const HomeSection = () => {
       <div className="relative">
         {activeItem === "About" ? <About data={aboutMe} /> : ""}
         {activeItem === "Skills" ? <Skills /> : ""}
-        {activeItem === "Project" ? <Project /> : ""}
+        {activeItem === "Project" ? <Projects /> : ""}
         {/* {activeItem === "Skills" ? <Skills data={skills} /> : ""} */}
       </div>
     </div>
