@@ -156,15 +156,15 @@ export const projects: Iprojects[] = [
 
   //   pageLink: "https://my-resume-eye2zys1q-goodyc474-gmailcom.vercel.app/",
   // },
-  {
-    name: "Real estate website",
-    description:
-      "A simple real estate webiste which show different properties with different prices",
-    img: "/images/funiture.JPG",
-    technology: ["html", "css", "javascript"],
-    github: "https://goodylove.github.io/real-estate-simple-home-page/",
-    pageLink: "https://real-estate-simple-home-page.vercel.app/",
-  },
+  // {
+  //   name: "Real estate website",
+  //   description:
+  //     "A simple real estate webiste which show different properties with different prices",
+  //   img: "/images/funiture.JPG",
+  //   technology: ["html", "css", "javascript"],
+  //   github: "https://goodylove.github.io/real-estate-simple-home-page/",
+  //   pageLink: "https://real-estate-simple-home-page.vercel.app/",
+  // },
 
   // {
   //   name: "Quiz app",
