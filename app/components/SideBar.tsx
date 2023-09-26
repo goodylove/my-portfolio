@@ -6,10 +6,17 @@ import { SocialIcon } from "react-social-icons";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 import DarkMode from "./DarkMode";
 import Link from "next/link";
+import { items } from "./Animation ";
+import { motion as m } from "framer-motion";
 
 const SideBar = () => {
   return (
-    <div className="flex flex-col justify-center items-center ">
+    <m.div
+      className="flex flex-col justify-center items-center "
+      variants={items}
+      initial="hidden"
+      animate="show"
+    >
       <Image
         src="/goody.jfif"
         alt="goody-pic"
@@ -27,7 +34,8 @@ const SideBar = () => {
       </p>
       <p>
         <Link
-          href="/images/Resume Goodness.pdf"
+          target="_blank"
+          href="/NWACHUKWU GOODNESS2 Cv.pdf"
           className="bg-white  rounded-full dark:bg-white  px-8 py-1  my-3 flex  font-bold  justify-center items-center text-sm text-blue-400 dark:text-black "
         >
           <AiOutlineCloudDownload />
@@ -77,7 +85,7 @@ const SideBar = () => {
       >
         <DarkMode />
       </button>
-    </div>
+    </m.div>
   );
 };
 
