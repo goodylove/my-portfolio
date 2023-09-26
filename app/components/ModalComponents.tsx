@@ -44,10 +44,10 @@ const ModalComp = ({
             src={img}
             alt="project-image"
             width={250}
-            height={250}
+            height={90}
             priority
           />
-          <div className="flex justify-center my-4  space-x-3">
+          <div className="flex justify-center my-2  space-x-3">
             {/* <Link
               href={typeof github === "undefined" ? pageLink : github}
               className="flex items-center px-4 py-2 space-x-3 "
@@ -63,10 +63,10 @@ const ModalComp = ({
             /> */}
             <Link
               href={pageLink}
-              className="flex items-center px-4 py-2 space-x-3 "
+              className="flex items-center px-4 py-1 space-x-3 "
               target="blank"
             >
-              <AiFillProject /> <span>Project</span>
+              <AiFillProject /> <span>Demo</span>
             </Link>
             {/* <LinkComponent
               pageLink={pageLink}
@@ -77,13 +77,13 @@ const ModalComp = ({
         </div>
         <div>
           <h2 className="mb-2 text-xl  font-medium">{name}</h2>
-          <h3 className="mb-1 text-[12px]">{description}</h3>
-          <div className="  grid grid-cols-3  tracking-wider">
+          <p className="mb-1 text-[9px]">{description}</p>
+          <div className="  grid grid-cols-3  gap-[3px]  tracking-wider">
             {technology.map((technology, index) => {
               return (
                 <span
                   key={index}
-                  className="p-1  bg-black rounded-sm text-[7px] m-1 w-fit"
+                  className="mx-1  bg-black rounded-sm text-[6px] px-1 py-1  max-w-[100px] font-[400]"
                 >
                   {technology}
                 </span>

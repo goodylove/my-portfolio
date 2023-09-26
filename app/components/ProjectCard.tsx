@@ -11,7 +11,6 @@ const ProjectCard: FunctionComponent<{ data: Iprojects }> = ({
   data: { name, description, img, technology, github, pageLink },
 }) => {
   const [showDetails, setShowDetails] = useState<boolean>(false);
-  console.log(img);
 
   return (
     <div>

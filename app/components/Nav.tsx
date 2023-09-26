@@ -38,7 +38,7 @@ const Nav = ({ data, setActiveItem }: navProps) => {
               ""
             ) : (
               <span className="dark:text-black dark:hover:text-[#02855a]">
-                Project
+                Projects
               </span>
             )}
           </span>

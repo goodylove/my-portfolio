@@ -1,6 +1,7 @@
 export interface Iprojects {
   name: string;
   description: string;
+
   img: string;
   technology: technologypr[];
   github?: string;
